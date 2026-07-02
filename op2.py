@@ -59,3 +59,16 @@ print(f"[] 是 {bool([])}")
 print(f"() 是 {bool(())}")
 print(f"空字典 是 {bool({})}")
 print(f"set() 是 {bool(set())}")
+
+
+cart = []
+# cart.append({
+#     "id": 336698589,
+#     "amount": 3
+# })
+# print(len(cart))
+# if len(cart) == 0:
+if not cart:
+    print("目前空物車是空的")
+else:
+    print(f"目前空物車的數量是 {len(cart)}")
