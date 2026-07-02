@@ -15,7 +15,7 @@ else:
     print(f"{num} 是奇數")
 
 # if-elif-else
-score = 91
+score = 51
 
 if score >= 90:
     grade = "甲"
