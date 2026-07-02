@@ -29,6 +29,21 @@ elif score >= 60:
 # else:
 #     grade = "戊"
 
+# 進階的 match-case
+# case score if score >= 90: 如果 score 符合而且大於等於 90 分 
+# case _ if score >= 90: 不管值是什麼, 先讓它通過來判斷是不是大於等於 90 分
+match score:
+    case score if score >= 90:
+        grade = "甲"
+    case score if score >= 80:
+        grade = "乙"
+    case score if score >= 70:
+        grade = "丙"
+    case score if score >= 60:
+        grade = "丁"
+    case _:
+        grade = "戊"
+
 print(f"你的分數是 {score}，你的等級是 {grade} 等")
 
 status = 402
