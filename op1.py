@@ -29,3 +29,8 @@ if b % 2 == 0:
 else:
    result_b = "奇數"
 print(f"變數 b 是 {result_b}")
+
+# 次方
+print(2**3)
+print(9**0.5)
+print("-"*20)
