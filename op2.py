@@ -36,3 +36,26 @@ if f2 not in s1:
     message = "f2 沒有在 s1 中"
     pass
 print(message)
+print("-"*20)
+
+# Truthy 家族的判斷簡化寫法
+if f2 == True:
+    pass
+if f2:
+    pass
+
+# Falsy 家族的判斷簡化寫法
+if f2 == False:
+    pass
+if not f2:
+    pass
+
+print(f"f2 變數是 {bool(f2)}")
+print(f"\"\" 是 {bool("")}")
+print(f"None 是 {bool(None)}")
+print(f"0 是 {bool(0)}")
+print(f"0.0 是 {bool(0.0)}")
+print(f"[] 是 {bool([])}")
+print(f"() 是 {bool(())}")
+print(f"空字典 是 {bool({})}")
+print(f"set() 是 {bool(set())}")
