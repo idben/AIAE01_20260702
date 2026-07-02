@@ -13,3 +13,8 @@ print("-"*20)
 # 成員判斷 in / not in
 print("晴天" in s2)
 print("晴天" not in s2)
+print("-"*20)
+
+# startswith / endswith
+filename = "photo.JpG"
+print(filename.lower().endswith(".jpg"))
