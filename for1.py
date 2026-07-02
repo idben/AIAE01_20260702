@@ -69,3 +69,11 @@ print("-"*30)
 # range(起始值, 結束值)
 for num in range(2, 6):
     print(num)
+
+# range(起始值, 結束值, 步進值)
+print("-"*30)
+for num in range(1, 10, 1):
+    print(num)
+print("-"*30)
+for num in range(1, 10, 2):
+    print(num)
