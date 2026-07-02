@@ -30,3 +30,15 @@ elif score >= 60:
 #     grade = "戊"
 
 print(f"你的分數是 {score}，你的等級是 {grade} 等")
+
+status = 402
+
+match status:
+    case 200:
+        print("請求成功")
+    case 400:
+        print("請求錯誤")
+    case 404:
+        print("找不到網頁")
+    case _:
+        print("未知狀態碼")
