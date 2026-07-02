@@ -50,3 +50,11 @@ for fruit in fruits:
 print(list(enumerate(fruits)))
 for i, v  in enumerate(fruits):
     print(f"{i + 1}-{v}")
+
+# 字典專屬方法 .values() 把 value 取出組成一個 list 來使用
+print("-"*30)
+print(scores.values())
+for score in scores.values():
+    print(score)
+
+print("-"*30)
