@@ -60,5 +60,12 @@ for score in scores.values():
 # range
 print("-"*30)
 # 第一種用法 range(n): 從 0 開始，小於 n，數字加一加一生成的 list
-for num in range(7):
+# n 代表終點
+for num in range(len(fruits)):
+    print(num)
+
+print("-"*30)
+# range(2, 6) 等於 [2,3,4,5]
+# range(起始值, 結束值)
+for num in range(2, 6):
     print(num)
