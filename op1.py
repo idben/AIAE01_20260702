@@ -34,3 +34,9 @@ print(f"變數 b 是 {result_b}")
 print(2**3)
 print(9**0.5)
 print("-"*20)
+
+
+x = 10
+# x = x + 5
+x += 5
+print(f"x += 5 = {x}")
