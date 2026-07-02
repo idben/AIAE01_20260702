@@ -8,3 +8,8 @@ print("-"*20)
 
 s2 = "今天是陰天，我最喜歡陰天，我常常在陰天出去玩。"
 print(s2.find("陰天", s2.find("陰天")+1))
+print("-"*20)
+
+# 成員判斷 in / not in
+print("晴天" in s2)
+print("晴天" not in s2)
