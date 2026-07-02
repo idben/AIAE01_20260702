@@ -18,3 +18,7 @@ print("-"*20)
 # startswith / endswith
 filename = "photo.JpG"
 print(filename.lower().endswith(".jpg"))
+print("-"*20)
+
+# count 計次
+print(f"陰天在這個句子中共出現 {s2.count("陰天")} 次")
