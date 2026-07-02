@@ -38,3 +38,15 @@ print(user2_score)
 print("-"*30)
 for user_name, user_score in scores.items():
     print(f"{user_name} 的分數是 {user_score}")
+
+print("-"*30)
+index = 0
+for fruit in fruits:
+    print(f"{index + 1}. {fruit}")
+    index += 1
+
+# enumerate
+# 同時需要索引值與 list 值的時候
+print(list(enumerate(fruits)))
+for i, v  in enumerate(fruits):
+    print(f"{i + 1}-{v}")
