@@ -57,3 +57,15 @@ match status:
         print("找不到網頁")
     case _:
         print("未知狀態碼")
+
+
+is_member = True
+total = 2200
+
+if is_member:
+    if total >= 2000:
+        print(f"是會員，滿 2000 打八折: {total * 0.8}")
+    else:
+        print(f"是會員，未滿 2000 打九五折: {total * 0.95}")
+else:
+    print(f"非會員，原價 {total} 購入")
