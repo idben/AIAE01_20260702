@@ -1,3 +1,4 @@
+import random
 # bool 的運算
 print(True * 10)
 
@@ -49,3 +50,18 @@ print(abs(b - a))
 # 次方運算
 print(pow(2, 3))
 print(pow(9, 0.5))
+print("-"*20)
+
+# range 產生指定範圍的 list
+print(list(range(1,10)))
+
+print(random.randint(1, 6))
+list2 = ["apple", "banana", "orange"]
+print(random.choice(list2))
+
+random.shuffle(list2)
+print(list2)
+
+
+print(random.sample(range(1,11), 10))
+print(random.sample(range(1,44), 6))
