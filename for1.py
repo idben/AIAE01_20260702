@@ -57,4 +57,8 @@ print(scores.values())
 for score in scores.values():
     print(score)
 
+# range
 print("-"*30)
+# 第一種用法 range(n): 從 0 開始，小於 n，數字加一加一生成的 list
+for num in range(7):
+    print(num)
