@@ -22,3 +22,17 @@ print("-"*20)
 
 # count 計次
 print(f"陰天在這個句子中共出現 {s2.count("陰天")} 次")
+print("-"*20)
+
+# 取代, replace
+print(s2.replace("陰天", "晴天", 1))
+print("-"*20)
+
+# 切成 list
+list1 = s2.split("，")
+print(list1[1])
+
+date_str = "2026-07-02"
+date_list = date_str.split("-")
+print(date_list)
+print(f"今天是 {date_list[0]} 年 {int(date_list[1])} 月 {date_list[2][1]} 日")
