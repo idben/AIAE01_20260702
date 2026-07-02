@@ -2,6 +2,8 @@
 * [電子版講義網址](https://doc.sagedaben.com/AIAE01)
 * [今天的程式碼網址](https://github.com/idben/AIAE01_20260702)
 * [第二天上午預計課程的練習作業](https://drive.google.com/drive/folders/1HGbmWLCiFP4ZRLdDYwfdqmFgB6BaOate?usp=drive_link)
+* [第二天下午預計課程的練習作業](https://drive.google.com/drive/folders/1JIqkNjMSC5Tro8MOEc2pSSkj1NMVg_3B?usp=drive_link)
+
 
 ## 注意事項
 * 壓縮檔要解壓縮後才能使用其中內容，不能直接拖進 VSCode 中使用
