@@ -40,3 +40,12 @@ x = 10
 # x = x + 5
 x += 5
 print(f"x += 5 = {x}")
+print("-"*20)
+
+# 絕對值 abs
+print(b - a)
+print(abs(b - a))
+
+# 次方運算
+print(pow(2, 3))
+print(pow(9, 0.5))
