@@ -36,3 +36,6 @@ date_str = "2026-07-02"
 date_list = date_str.split("-")
 print(date_list)
 print(f"今天是 {date_list[0]} 年 {int(date_list[1])} 月 {date_list[2][1]} 日")
+
+
+print("/".join(date_list))
