@@ -3,6 +3,8 @@
 * [今天的程式碼網址](https://github.com/idben/AIAE01_20260702)
 * [第二天上午預計課程的練習作業](https://drive.google.com/drive/folders/1HGbmWLCiFP4ZRLdDYwfdqmFgB6BaOate?usp=drive_link)
 * [第二天下午預計課程的練習作業](https://drive.google.com/drive/folders/1JIqkNjMSC5Tro8MOEc2pSSkj1NMVg_3B?usp=drive_link)
+* [第二天上午預計課程的練習作業解答](https://drive.google.com/drive/folders/1km4eODuQyb_mnXetrC3lLVljo_2qqIAQ?usp=drive_link)
+* [第二天下午預計課程的練習作業解答](https://drive.google.com/drive/folders/1jLx7Da6QzM616821-eA87xlugYiQNCPT?usp=drive_link)
 
 
 ## 注意事項
